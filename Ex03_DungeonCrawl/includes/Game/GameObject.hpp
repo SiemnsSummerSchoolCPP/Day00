@@ -9,6 +9,7 @@ public:
 	Coords coords;
 	
 	GameObject(char const* sprite);
+	virtual ~GameObject() = default;
 	
 	virtual void update();
 	

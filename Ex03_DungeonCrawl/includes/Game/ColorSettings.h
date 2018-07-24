@@ -1,6 +1,6 @@
 #pragma once
 
-#define BLINKING_ON 0
+#define BLINKING_ON 1
 #define COLORS_ON 1
 
 #if BLINKING_ON

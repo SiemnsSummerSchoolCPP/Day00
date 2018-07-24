@@ -8,7 +8,7 @@ const Coords kLeftCoords =	Coords(-1, 0);
 const Coords kRightCoords =	Coords(1, 0);
 
 char const* Monster::defaultSprite =
-	PUT_COLOR("\033[0;31" BLINKING_CHARS "m") "\xF0\x9F\x98\xA1"
+	PUT_COLOR("\033[0;31" "m") "\xF0\x9F\x98\xA1"
 	PUT_COLOR("\033[0m");
 
 Monster::Monster() : GameObject(defaultSprite)

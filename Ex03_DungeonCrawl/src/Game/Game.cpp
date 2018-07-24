@@ -53,9 +53,11 @@ Game::~Game()
 
 void Game::update()
 {
+	human->update();
 	for (auto obj : gameObjects)
 	{
-		obj->update();
+		if (obj != human)
+			obj->update();
 	}
 	system("clear");
 	std::cout << *this;
