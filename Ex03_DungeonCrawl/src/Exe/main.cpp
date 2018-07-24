@@ -13,6 +13,7 @@ int main(const int argc, char const** argv)
 	system("clear");
 	std::cout << game;
 	
+	srand(time(NULL));
 	while (true)
 	{
 		game.update();
