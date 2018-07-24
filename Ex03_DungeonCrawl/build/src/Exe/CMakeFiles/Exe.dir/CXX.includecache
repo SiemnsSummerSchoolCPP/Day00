@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../includes/Game/Game.hpp
+ostream
+-
+
+/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/main.cpp
+Game/Game.hpp
+/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/Game/Game.hpp
+iostream
+-
+

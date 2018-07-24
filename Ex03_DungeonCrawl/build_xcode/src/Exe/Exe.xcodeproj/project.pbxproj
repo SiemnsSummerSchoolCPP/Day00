@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		024FAE37E0454886B3C7E979 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9A347B02B07747E3A92019C4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D49C8B9CC8DA47CCA26BB3A2 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		0E001CBE0FBD4038967E4AC2 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 507CD5FF1BA74D3189F9FC86 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				1D21E2A33D0648B1B0F8AD6E /* CMake Rules */,
+			);
+			dependencies = (
+				56B2C0DB0962479DB094560A /* PBXTargetDependency */,
+				01A616A194DE4F878F3DAA71 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6F3A563094A04DAAAA2C748E /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7B160D76A6AB4782946A050F /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/CMakeLists.txt */; };
+		DFBA2298466A490EB1A547CD /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/main.cpp */ = {isa = PBXBuildFile; fileRef = A7B27EBA1CE342888E1D722A /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		11ED8FFCA90E4EF3B18CBD62 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		3E7C38D253064881AB7B22E3 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		431C056D1EA44004AE813847 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9358AB3DC4A74B0F872A9023 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		8297D00F8997455088D39898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355B3D4A218945EF8F846097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024FAE37E0454886B3C7E979;
+			remoteInfo = ZERO_CHECK;
+		};
+		AE43F7C0289C4703BBCD1D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355B3D4A218945EF8F846097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC4623A7A0249368EA08803;
+			remoteInfo = Exe;
+		};
+		E3D09C9BE9DA4C2DB1BB3740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355B3D4A218945EF8F846097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024FAE37E0454886B3C7E979;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DBEBA27E1F04B6E8AC6FB70 /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7B160D76A6AB4782946A050F /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A7B27EBA1CE342888E1D722A /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		D495E680F1D045879A719366 /* Exe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Exe; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		7CD49DF7ADD44A3E816551C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D495E680F1D045879A719366 /* Exe */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC8CAAB54684FD0B33934B7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B27EBA1CE342888E1D722A /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		942D570D6D414566AC6513AB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A37D4B076B0E4830BA7ED6D4 = {
+			isa = PBXGroup;
+			children = (
+				F0D398E33D054C358F54F67E /* Exe */,
+				CAA27D926856459F8B6D4AB6 /* ALL_BUILD */,
+				7CD49DF7ADD44A3E816551C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAA27D926856459F8B6D4AB6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				942D570D6D414566AC6513AB /* CMake Rules */,
+				6DBEBA27E1F04B6E8AC6FB70 /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F0D398E33D054C358F54F67E /* Exe */ = {
+			isa = PBXGroup;
+			children = (
+				8CC8CAAB54684FD0B33934B7 /* Source Files */,
+				7B160D76A6AB4782946A050F /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/CMakeLists.txt */,
+			);
+			name = Exe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC4623A7A0249368EA08803 /* Exe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114437ECF2EF4E008BA1A015 /* Build configuration list for PBXNativeTarget "Exe" */;
+			buildPhases = (
+				3F877E40223D417BBC8D84F8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E5B5CE2B6464770A1FD17C9 /* PBXTargetDependency */,
+			);
+			name = Exe;
+			productName = Exe;
+			productReference = D495E680F1D045879A719366 /* Exe */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		355B3D4A218945EF8F846097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = B1EFABCCD88E42EBAAE309B2 /* Build configuration list for PBXProject "Exe" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9358AB3DC4A74B0F872A9023 /* Debug */,
+				431C056D1EA44004AE813847 /* Release */,
+				3E7C38D253064881AB7B22E3 /* MinSizeRel */,
+				11ED8FFCA90E4EF3B18CBD62 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A37D4B076B0E4830BA7ED6D4;
+			projectDirPath = ../../../src/Exe;
+			projectRoot = "";
+			targets = (
+				0E001CBE0FBD4038967E4AC2 /* ALL_BUILD */,
+				FEC4623A7A0249368EA08803 /* Exe */,
+				024FAE37E0454886B3C7E979 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D21E2A33D0648B1B0F8AD6E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe -f /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		664DB8DCA5274500AD90ECBB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BBC2482301174D57830471D1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D49C8B9CC8DA47CCA26BB3A2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe -f /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F877E40223D417BBC8D84F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA2298466A490EB1A547CD /* /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/src/Exe/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01A616A194DE4F878F3DAA71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024FAE37E0454886B3C7E979 /* ZERO_CHECK */;
+			targetProxy = 8297D00F8997455088D39898 /* PBXContainerItemProxy */;
+		};
+		56B2C0DB0962479DB094560A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEC4623A7A0249368EA08803 /* Exe */;
+			targetProxy = AE43F7C0289C4703BBCD1D61 /* PBXContainerItemProxy */;
+		};
+		8E5B5CE2B6464770A1FD17C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 024FAE37E0454886B3C7E979 /* ZERO_CHECK */;
+			targetProxy = E3D09C9BE9DA4C2DB1BB3740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08A896506DF743128567CE0A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		179F5730DC61424A8767A1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		385138C82A184D79BA8094E7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4865F0A8145F4EB18ECACD97 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe/build;
+			};
+			name = MinSizeRel;
+		};
+		55FB362CF8C44980B1EAE9F1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		728B0BC1A0564FB480EDF5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe/build;
+			};
+			name = Debug;
+		};
+		82EA854D9E914FECBEECDAC9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		961614F39A89424BA2F701E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		9DE89464BE6542C3AF266760 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/includes);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/RelWithDebInfo/libGame.a /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/RelWithDebInfo/libGame.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Exe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9EBCE1E5D5D54963AD71C484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe/build;
+			};
+			name = Release;
+		};
+		C126CF1F68594513A650B25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/includes);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/Release/libGame.a /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/Release/libGame.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Exe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DA0811A33B1A44D29B30C8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/includes);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/Debug/libGame.a /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/Debug/libGame.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Exe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DCF01B2E3D364C06B1C667F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe/build;
+			};
+			name = RelWithDebInfo;
+		};
+		DD85E5EBE40B4FEA8652DA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F255456023FE4706A3756396 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/includes);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/MinSizeRel/libGame.a /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/bin/MinSizeRel/libGame.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Exe;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FB0E5327BE9544BB87F3FE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114437ECF2EF4E008BA1A015 /* Build configuration list for PBXNativeTarget "Exe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0811A33B1A44D29B30C8F1 /* Debug */,
+				C126CF1F68594513A650B25B /* Release */,
+				F255456023FE4706A3756396 /* MinSizeRel */,
+				9DE89464BE6542C3AF266760 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		507CD5FF1BA74D3189F9FC86 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB0E5327BE9544BB87F3FE97 /* Debug */,
+				961614F39A89424BA2F701E5 /* Release */,
+				55FB362CF8C44980B1EAE9F1 /* MinSizeRel */,
+				08A896506DF743128567CE0A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A347B02B07747E3A92019C4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179F5730DC61424A8767A1C1 /* Debug */,
+				DD85E5EBE40B4FEA8652DA7F /* Release */,
+				385138C82A184D79BA8094E7 /* MinSizeRel */,
+				82EA854D9E914FECBEECDAC9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B1EFABCCD88E42EBAAE309B2 /* Build configuration list for PBXProject "Exe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728B0BC1A0564FB480EDF5E3 /* Debug */,
+				9EBCE1E5D5D54963AD71C484 /* Release */,
+				4865F0A8145F4EB18ECACD97 /* MinSizeRel */,
+				DCF01B2E3D364C06B1C667F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 355B3D4A218945EF8F846097 /* Project object */;
+}
