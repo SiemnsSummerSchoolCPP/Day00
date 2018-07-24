@@ -1,5 +1,21 @@
 #include "Map.hpp"
 
+Map::~Map()
+{
+	if (objects == nullptr)
+		return;
+	
+	for (int i = 0; i < height; i++)
+	{
+		if (objects[i] != nullptr)
+		{
+			delete[] objects[i];
+		}
+	}
+	
+	delete[] objects;
+}
+
 void Map::Init(int width, int height)
 {
 	this->width = width;

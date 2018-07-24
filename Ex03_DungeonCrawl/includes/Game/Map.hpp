@@ -10,6 +10,8 @@ public:
 
 	GameObject*** objects;
 	
+	~Map();
+	
 	void Init(int width, int height);
 	bool validPos(Coords const& coords) const;
 	

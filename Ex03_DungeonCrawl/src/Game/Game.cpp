@@ -39,6 +39,12 @@ Game::Game(const char* mapFilePath)
 
 Game::~Game()
 {
+	for (auto& obj : gameObjects)
+	{
+		delete obj;
+	}
+	
+	
 }
 
 /*

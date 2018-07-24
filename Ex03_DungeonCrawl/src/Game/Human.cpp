@@ -29,6 +29,10 @@ Human::Human(OnWinEvent onWin) : GameObject(defaultSprite), onWin(onWin)
 {
 }
 
+Human::~Human()
+{
+}
+
 bool Human::move(Coords const newPos, Map& map)
 {
 	if (!map.validPos(newPos))

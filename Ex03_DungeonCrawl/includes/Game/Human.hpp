@@ -11,6 +11,7 @@ class Human : public GameObject
 {
 public:
 	Human(OnWinEvent onWin);
+	~Human();
 	
 	bool move(Coords newPos, Map& map);
 
