@@ -1,8 +1,0 @@
-/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/CMakeFiles/ALL_BUILD.dir
-/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/CMakeFiles/ZERO_CHECK.dir
-/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe/CMakeFiles/Exe.dir
-/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe/CMakeFiles/ALL_BUILD.dir
-/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Exe/CMakeFiles/ZERO_CHECK.dir
-/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Game/CMakeFiles/Game.dir
-/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Game/CMakeFiles/ALL_BUILD.dir
-/Users/unicornslayer/Projects/summerSchoolPersonal/Day00/Ex03_DungeonCrawl/build_xcode/src/Game/CMakeFiles/ZERO_CHECK.dir
